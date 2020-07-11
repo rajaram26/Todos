@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo's</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df5482e203.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="total">
+    
+    <div class="container">
+
+
+        <header class="head text-center text-light my-4">
+            <h1 class="display-3">Todo's List</h1>
+            <form class="search mx-auto">
+                <input class="form-control m-auto" type="text" name="search" placeholder="Search Todo's">
+            </form>
+        </header>
+        
+
+        <ul class="todo list-group mx-auto ">
+            <li class="ll list-group-item d-flex justify-content-between align-items-center">
+                <span> This is Raja</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="ll list-group-item d-flex justify-content-between align-items-center">
+                <span> This is Chottu</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+            <li class="ll list-group-item d-flex justify-content-between align-items-center">
+                <span> This is Dimple</span>
+                <i class="fas fa-trash delete"></i>
+            </li>
+        </ul>
+
+        <form class="text-center my-4 box mx-auto text-light">
+            <p>Add your New Todo's....</p>
+            <input class="form-control m-auto" type="text" name="addnew"/>
+        </form>
+
+    </div>
+
+    <script src="add.js"></script>
+</body>
+</html>

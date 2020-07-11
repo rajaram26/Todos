@@ -1,0 +1,21 @@
+.total{
+    background-color: darkmagenta;
+}
+.todo{
+    max-width: 600px;
+}
+.search{
+    max-width: 600px;
+}
+.box{
+    max-width: 600px; 
+}
+.delete{
+    cursor: pointer;
+}
+li{
+    background-color: rgb(7, 1, 12);
+}
+.filtered{
+    display: none !important;
+}
